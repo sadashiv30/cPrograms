@@ -29,7 +29,17 @@
    Please include the unit tests required to match at least 5 sample digit counts (ex: 4, 13, 17, 25, 50).
 
    Use the example in the file below in order to submit your exercise.
- */
+   
+*******************************************************************************************
+
+
+/* README
+ * Language : C
+ * Compiler : gcc
+ * make line: gcc adjacent_digits_product.c -o adjacent_digits_product -lm 
+ */   
+   
+
 
 #include <stdio.h>
 #include <string.h>
