@@ -28,6 +28,7 @@
 
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 #define MAX_NUM 10000
 
