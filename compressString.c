@@ -36,8 +36,14 @@ char *stringCompress(char *s)
 			tmp++;
 		}
 		*buf=*ptr;
-		itoa(count,++buf,10);
+		//itoa(count,++buf,10);
+		//sprintf(++buf,co)
 		ptr+=count;
 	}
 	return buf;
+}
+
+int main(){
+
+	return 0;
 }
