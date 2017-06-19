@@ -17,6 +17,12 @@ matrixRow0: matrixRow0.c
 packedPIN: packedPIN.c
 stringTests: stringTests.c
 compressString: compressString.c
+myatoi : myatoi.c
+substring : substring.c
+swap : swap.c
+reverseString : reverseString.c
+reverseInPlaceString : reverseInPlaceString.c
+permute: permute.c
 $(TARGETS):
 	$(CXX) $(CFLAGS) -o $@  $^
 	@mv $@ bin/
