@@ -23,6 +23,10 @@ swap : swap.c
 reverseString : reverseString.c
 reverseInPlaceString : reverseInPlaceString.c
 permute: permute.c
+bitmanip: bitmanip.c
+macro : macro.c
+varargs : varargs.c
+
 $(TARGETS):
 	$(CXX) $(CFLAGS) -o $@  $^
 	@mv $@ bin/
