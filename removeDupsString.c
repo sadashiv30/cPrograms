@@ -3,7 +3,7 @@
 
 void shiftLeftString(char *str, int pos) {
   int len = strlen(str);
-  for (int j = pos; j < len - 1; j++){
+  for (int j = pos; j < len - 1; j++) {
     str[j] = str[j + 1];
   }
   str[len - 1] = '\0';
@@ -29,7 +29,7 @@ int main() {
   for (int i = 0; i < 4; i++) {
     printf("%d: %s\n", i, strng[i]);
     removeDuplicates(strng[i]);
-    printf("%d: %s\n",i, strng[i]);
+    printf("%d: %s\n", i, strng[i]);
   }
   return 0;
 }

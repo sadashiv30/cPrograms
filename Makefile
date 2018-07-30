@@ -27,6 +27,7 @@ bitmanip: bitmanip.c
 macro : macro.c
 varargs : varargs.c
 removeDupsString: removeDupsString.c
+helicalMatrix: helicalMatrix.c
 
 $(TARGETS):
 	$(CXX) $(CFLAGS) -o $@  $^
