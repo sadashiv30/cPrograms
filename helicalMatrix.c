@@ -5,9 +5,9 @@
 int arr[N][N] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
 
 int main(int argc, char const *argv[]) {
-// i is the iterator
-// j minRow, k is MaxRow
-// n minCol, m is MaxCol
+  // i is the iterator
+  // j minRow, k is MaxRow
+  // n minCol, m is MaxCol
   int i = 0, j = 0, k = N, m = N, n = 0;
   while (j < k && n < m) {
     // Fix minRow , iterate the col , this moves right
